@@ -3,39 +3,15 @@ import { Link } from "react-router-dom";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h3>Menu</h3>
 
-      <br />
+      <Link to="/">
+        Dashboard
+      </Link>
 
-      <p>
-        <Link to="/" style={{ color: "white" }}>
-          Dashboard
-        </Link>
-      </p>
+      <Link to="/students">
+        Students
+      </Link>
 
-      <br />
-
-      <p>
-        <Link to="/students" style={{ color: "white" }}>
-          Students
-        </Link>
-      </p>
-
-      <br />
-
-      <p>
-        <Link to="/fees" style={{ color: "white" }}>
-          Fees
-        </Link>
-      </p>
-
-      <br />
-
-      <p>
-        <Link to="/schedule" style={{ color: "white" }}>
-          Schedule
-        </Link>
-      </p>
     </div>
   );
 }
