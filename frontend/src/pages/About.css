@@ -1,5 +1,3 @@
-import "./About.css";
-
 .about-container {
   padding: 30px 20px;
   max-width: 1000px;
@@ -112,8 +110,10 @@ import "./About.css";
 }
 
 .features-list li:before {
-  content: "";
+  content: "✓ ";
   margin-right: 10px;
+  color: #e85d75;
+  font-weight: bold;
 }
 
 .contact-section {
