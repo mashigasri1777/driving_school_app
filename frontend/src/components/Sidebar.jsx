@@ -12,6 +12,14 @@ function Sidebar() {
         Students
       </Link>
 
+      <Link to="/about">
+        About
+      </Link>
+
+      <Link to="/llr-application">
+        LLR Application
+      </Link>
+
     </div>
   );
 }
